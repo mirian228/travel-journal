@@ -5,13 +5,15 @@ function MainContent(props) {
       <section className="main--section--text">
         <div className="main--location--text">
           <img
-            src="../images/point.png"
+            src={process.env.PUBLIC_URL + "/point.png"}
             alt="point"
             className="main--point"
           ></img>
           <p className="main--location">
             {props.item.location}
-            <a className="main--url" href={props.item.href}>View on Google Maps</a>
+            <a className="main--url" href={props.item.href}>
+              View on Google Maps
+            </a>
           </p>
         </div>
         <div>
