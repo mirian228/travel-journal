@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    font-family: "Inter";
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "one four seven"
+        "two five eight"
+        "three six nine";
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item1 {
+    grid-area: one;
+}
+
+.grid-item2 {
+    grid-area: two;
+}
+
+.grid-item3 {
+    grid-area: three;
+}
+
+.grid-item4 {
+    grid-area: four;
+}
+
+.grid-item5 {
+    grid-area: five;
+}
+
+.grid-item6 {
+    grid-area: six;
+}
+
+.grid-item7 {
+    grid-area: seven;
+}
+
+.grid-item8 {
+    grid-area: eight;
+}
+
+.grid-item9 {
+    grid-area: nine;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F55A5A;
+    height: 55px;
+}
+
+.nav--image {
+    width: 24px;
+    height: 24px;
+}
+
+.nav--text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-left: 7px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.main--section--text {
+    margin-left: 19px;
+}
+
+.main--theme {
+    margin-top: 70px;
+    margin-left: 70px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.main--location--text {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+
+.main--url {
+    margin-bottom: 0px;
+}
+
+.main--point {
+    width: 7px;
+    height: 9.55px;
+    margin-right: 4px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+.main--location {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    margin-bottom: 0;
+}
+
+.main--url {
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+    margin-bottom: 0;
+
+}
+
+.main--h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+
+.main--date {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    margin-top: 0px;
+    margin-bottom: 9px;
+    color: #2B283A;
+}
+
+.main--paragraph {
+    width: 326px;
+    height: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 15px;
+    color: #2B283A;
+    margin-top: 0px;
+}
